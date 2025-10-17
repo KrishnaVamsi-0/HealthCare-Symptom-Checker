@@ -11,7 +11,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 # ✅ Direct Gemini API key (replace with your own)
-GEMINI_API_KEY = "AIzaSyDvVr8iajZWz2iTydxXZsM2rg6v31OB7aE"
+GEMINI_API_KEY = "ENTER YOUR GEMINI API KEY"
 
 @app.get("/", response_class=HTMLResponse)
 def home(request: Request):
@@ -54,3 +54,4 @@ async def chat(request: Request):
 
     except Exception as e:
         return JSONResponse({"reply": f"❌ Error: {e}"})
+
