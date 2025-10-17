@@ -1,3 +1,4 @@
+Demo link: https://github.com/KrishnaVamsi-0/HealthCare-Symptom-Checker
 # 🩺 Healthcare Symptom Chat – Gemini 2.5 Pro
 
 A simple yet powerful **AI-powered healthcare chatbot** built using **FastAPI** and **Gemini 2.5 Pro**.  
